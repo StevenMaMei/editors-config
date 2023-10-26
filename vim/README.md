@@ -18,17 +18,13 @@ in visual mode
 
 # Intellij Idea shortcuts
 ## NERDTree
-- \<leader>n = focus
-- \<C-n> = NERDTree
 - \<C-t> = NERDTreeToggle
-- \<C-f> = NERDTreeFind
 ### inside the tree
 - o = open
 - go = open leaving the cursor in the tree
 - t = open in a new tab
 - T = same as t but keep focus on current tab
 - s = vertical split
-- gs = same as s but leave cursor on the tree
 - \<C-J> or \<C-K> = Jumpt to the sibling node
 - O = open recursively in the selected directory
 - x = Close the current node parent
