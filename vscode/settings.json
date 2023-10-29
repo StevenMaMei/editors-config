@@ -1,0 +1,84 @@
+{
+    // Vim
+    "vim.leader": "space",
+    "vim.hlsearch": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "K"
+            ],
+            "commands": [
+                "editor.action.showHover"
+            ]
+        },
+        {
+            "before": [
+                "]",
+                "d"
+            ],
+            "commands": [
+                "editor.action.marker.next"
+            ]
+        },
+        {
+            "before": [
+                "[",
+                "d"
+            ],
+            "commands": [
+                "editor.action.marker.prev"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "v",
+                "c",
+                "a"
+            ],
+            "commands": [
+                "editor.action.quickFix"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "v",
+                "r",
+                "r"
+            ],
+            "commands": [
+                "editor.action.goToReferences"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "v",
+                "r",
+                "n"
+            ],
+            "commands": [
+                "editor.action.rename"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "p",
+                "f"
+            ],
+            "commands": [
+                "workbench.action.quickOpen"
+            ]
+        },
+    ],
+    "vim.vimrc.enable": true,
+    "vim.vimrc.path": "C:\\Users\\steve\\Documents\\.vimrc",
+    // General editor settings
+    "editor.fontSize": 18,
+    "editor.fontLigatures": true,
+    "editor.formatOnSave": true,
+    "editor.lineNumbers": "relative",
+    "editor.suggest.insertMode": "replace",
+}
