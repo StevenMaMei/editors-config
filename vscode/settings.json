@@ -75,10 +75,12 @@
     ],
     "vim.vimrc.enable": true,
     "vim.vimrc.path": "C:\\Users\\steve\\Documents\\.vimrc",
+    "vim.useSystemClipboard": true,
     // General editor settings
     "editor.fontSize": 18,
     "editor.fontLigatures": true,
     "editor.formatOnSave": true,
     "editor.lineNumbers": "relative",
     "editor.suggest.insertMode": "replace",
+    "editor.linkedEditing": true,
 }
