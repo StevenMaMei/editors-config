@@ -1,0 +1,14 @@
+return {
+  "iamcco/markdown-preview.nvim",
+  cmd = { "MarkdownPreviewToggle", "MarkdownPreview", "MarkdownPreviewStop" },
+  ft = { "markdown" },
+  build = "cd app && npm install",
+  init = function()
+    vim.g.mkdp_preview_options = {
+      mermaid = { theme = "default" },
+    }
+  end,
+  keys = {
+    { "<leader>mp", "<cmd>MarkdownPreviewToggle<CR>", desc = "Toggle markdown browser preview" },
+  },
+}
