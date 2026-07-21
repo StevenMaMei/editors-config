@@ -13,7 +13,9 @@ opt.expandtab = true -- expand tab to spaces
 opt.autoindent = true -- copy indent from current line when starting new one
 
 -- line wrapping
-opt.wrap = false -- disable line wrapping
+opt.wrap = true -- wrap long lines at the window edge
+opt.linebreak = true -- wrap at word boundaries when possible
+opt.breakindent = true -- preserve indentation on wrapped lines
 
 -- search settings
 opt.ignorecase = true -- ignore case when searching
